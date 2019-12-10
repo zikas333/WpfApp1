@@ -61,6 +61,7 @@ namespace WpfApp1
             db.Calls.Remove(dRow);
             db.SaveChanges();
             ListGrid.ItemsSource = db.Calls.ToList();
+            //testing
         }
 
         private void Btnedit_Click(object sender, RoutedEventArgs e)
