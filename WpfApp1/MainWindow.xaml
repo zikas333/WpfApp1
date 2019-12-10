@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Autorization" Height="397" Width="389" Background="#04c582" FontSize="14" >
+    <Border Background="#2e3137" CornerRadius="25" Margin="25">
+        <StackPanel Margin="25,25,25,5">
+
+            <Label Content="Login" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+            <Separator></Separator>
+            <Label Content="Username" Foreground="White" />
+            <TextBox x:Name="txtUsername" Background="#545d6a" Foreground="White" FontSize="18"/>
+            <Label Content="Password" Foreground="White" />
+            <PasswordBox x:Name="txtPassword" Background="#545d6a" Foreground="White" FontSize="18"/>
+            <Button x:Name="btnSumbit" Content="Войти"  Margin="60 10" Background="#545d6a" Foreground="White" FontSize="18" Height="27" Click="BtnSumbit_Click"/>
+            <Button x:Name="btnreg" Content="Регистрация" Margin="60 10" Background="#545d6a" Foreground="White" FontSize="18" Height="27" Click="Btnreg_Click"/>
+            <Separator/>
+        </StackPanel>
+    </Border>
+
+</Window>
